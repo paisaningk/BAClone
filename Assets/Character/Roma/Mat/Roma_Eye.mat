@@ -169,13 +169,13 @@ Material:
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DitherTexelSize: 1
-    - _Dithering: 0.259
+    - _Dithering: 0
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EmissionToggle: 0
     - _EnableSSSRamp: 0
     - _EnvironmentReflections: 1
-    - _FOVShiftX: 0
+    - _FOVShiftX: 1
     - _FaceShadowMapPow: 0.2
     - _FaceShadowSmoothness: 0
     - _FakeLightIntensity: 0
@@ -205,7 +205,7 @@ Material:
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _OffsetShadowDistance: 15
-    - _OutlineWidth: 2.6
+    - _OutlineWidth: 18.6
     - _OverrideLightColorIntensityToggle: 0
     - _OverrideLightDirToggle: 1
     - _OverrideZTest: 0
@@ -224,7 +224,7 @@ Material:
     - _RimLightOverShadow: 1
     - _RimLightSmoothness: 0.2
     - _RimLightStrength: 0.35
-    - _ScaleAsScreenSpaceOutline: 1
+    - _ScaleAsScreenSpaceOutline: 0
     - _ShadowColorMode: 0
     - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
@@ -247,18 +247,18 @@ Material:
     m_Colors:
     - _AlphaClipUVCtrl: {r: 1, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CharacterCenterWS: {r: 7.758999, g: 0.6459999, b: -3.8078427, a: 0}
+    - _CharacterCenterWS: {r: 7.809, g: 0.100000024, b: 1.827, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DepthRimLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FaceFrontDirection: {r: 0.018837627, g: 0, b: 0.99982256, a: 0}
     - _FaceRightDirection: {r: 0.99982256, g: 0, b: -0.018837627, a: 0}
     - _FaceUVCtrl: {r: 0, g: 1, b: 0, a: 0}
-    - _FakeLightColor: {r: 0, g: 0, b: 0, a: 0}
-    - _FakeLightEuler: {r: 183.26, g: 0, b: 0, a: 0}
+    - _FakeLightColor: {r: 1, g: 0.6556604, b: 0.6556604, a: 0}
+    - _FakeLightEuler: {r: 190.98, g: 0, b: 0, a: 0}
     - _HairLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _HairUVCtrl: {r: 0, g: 0, b: 1, a: 0}
-    - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _OutlineColor: {r: 1, g: 0.051886797, b: 0.051886797, a: 0}
     - _OutlineDistancFade: {r: 50, g: 50, b: 0, a: 0}
     - _OverrideGIColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReceivedShadowColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
