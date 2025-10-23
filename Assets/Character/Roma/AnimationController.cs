@@ -1,9 +1,5 @@
 using UnityEngine;
 
-namespace Plat
-{
-    
-}
 public class Roma_Animation : MonoBehaviour
 {
     public PlayerController playerController;
@@ -11,7 +7,7 @@ public class Roma_Animation : MonoBehaviour
 
     void Start()
     {
-        mAnimator = GetComponent<Animator>();
+        mAnimator = GetComponent<UnityEngine.Animator>();
     }
 
    
