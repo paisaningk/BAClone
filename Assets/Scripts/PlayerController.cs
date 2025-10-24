@@ -70,16 +70,16 @@ public class PlayerController : MonoBehaviour
     {
         if (isPc)
         {
-            // var lookPos = rotationtaget - transform.position;
-            // lookPos.y = 0;
-            // var rotation = Quaternion.LookRotation(lookPos);
-            //
-            // Vector3 aimDirection = new Vector3(rotationtaget.x, 0f, rotationtaget.z);
-            //
-            // if (aimDirection != Vector3.zero)
-            // {
-            //     transform.rotation = Quaternion.Slerp(transform.rotation, rotation, 0.20f);
-            // }
+            var lookPos = rotationtaget - transform.position;
+            lookPos.y = 0;
+            var rotation = Quaternion.LookRotation(lookPos);
+            
+            Vector3 aimDirection = new Vector3(rotationtaget.x, 0f, rotationtaget.z);
+            
+            if (aimDirection != Vector3.zero)
+            {
+                transform.rotation = Quaternion.Slerp(transform.rotation, rotation, 0.20f);
+            }
         }
         else
         {

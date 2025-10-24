@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8341873925474052834
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 10
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -20,19 +7,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Roma_Body
+  m_Name: Enemy_Face
   m_Shader: {fileID: 4800000, guid: 55a54603fab88d940a3374f8ae9f78e8, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _RECEIVE_ASP_SHADOW
-  - _RECEIVE_OFFSETED_SHADOW_ON
   - _SPECULAR_LIGHTING_ON
-  - _SSSMAP
   - _STYLE_CELSHADING
   m_InvalidKeywords:
-  - _ENABLESSSRAMP
-  - _OVERRIDELIGHTDIRTOGGLE
   - _RECEIVESHADOWS
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -47,7 +29,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 31d0f45f48af84e4196cff720fafa311, type: 3}
+        m_Texture: {fileID: 2800000, guid: 036b0739d4c568c468b7e2f65d0c250b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -83,7 +65,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 31d0f45f48af84e4196cff720fafa311, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MatCapReflectionMap:
@@ -111,7 +93,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampMap:
-        m_Texture: {fileID: 2800000, guid: 080d8fc005823184eae223f45d9b6b7c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 71a8be6308c0b584fa30e19db4254adf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampOcclusionMap:
@@ -123,7 +105,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SSSRampMap:
-        m_Texture: {fileID: 2800000, guid: 603c478fd984615458e9fb8ba4c5a199, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -174,12 +156,12 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EmissionToggle: 0
-    - _EnableSSSRamp: 1
+    - _EnableSSSRamp: 0
     - _EnvironmentReflections: 1
-    - _FOVShiftX: 1
+    - _FOVShiftX: 0
     - _FaceShadowMapPow: 0.2
     - _FaceShadowSmoothness: 0
-    - _FakeLightIntensity: 2.87
+    - _FakeLightIntensity: 1
     - _FlattenAdditionalLighting: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
@@ -202,13 +184,13 @@ Material:
     - _IsUsingRampOcclusionTexture: 0
     - _MatCapReflectionStrength: 1
     - _MatCapRollStabilize: 1
-    - _MaterialID: 1
+    - _MaterialID: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _OffsetShadowDistance: 15
-    - _OutlineWidth: 0
-    - _OverrideLightColorIntensityToggle: 1
-    - _OverrideLightDirToggle: 1
+    - _OutlineWidth: 0.1
+    - _OverrideLightColorIntensityToggle: 0
+    - _OverrideLightDirToggle: 0
     - _OverrideZTest: 0
     - _PBRInfluenceDirectLighting: 0
     - _PBRMetallic: 0
@@ -217,19 +199,19 @@ Material:
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _RampOcclusionStrength: 0
-    - _ReceiveASPShadow: 1
-    - _ReceiveOffsetedDepthMap: 1
+    - _ReceiveASPShadow: 0
+    - _ReceiveOffsetedDepthMap: 0
     - _ReceiveShadows: 1
     - _RimLightAlign: 0
     - _RimLightOn: 0
     - _RimLightOverShadow: 1
     - _RimLightSmoothness: 0.2
-    - _RimLightStrength: 0.101
+    - _RimLightStrength: 0.35
     - _ScaleAsScreenSpaceOutline: 0
     - _ShadowColorMode: 0
-    - _Smoothness: 0
+    - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
-    - _SpecularFalloff: 0.324
+    - _SpecularFalloff: 0.5
     - _SpecularHighlights: 1
     - _SpecularSize: 0.25
     - _SrcBlend: 1
@@ -247,20 +229,20 @@ Material:
     - _style: 1
     m_Colors:
     - _AlphaClipUVCtrl: {r: 1, g: 0, b: 0, a: 0}
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CharacterCenterWS: {r: 7.809, g: 0.100000024, b: 1.827, a: 0}
+    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
+    - _CharacterCenterWS: {r: 0, g: 0, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DepthRimLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FaceFrontDirection: {r: -0.022544125, g: 0.037211, b: -0.9990534, a: 0}
-    - _FaceRightDirection: {r: -0.99974585, g: 0.0000011776283, b: 0.022559794, a: 0}
+    - _FaceFrontDirection: {r: 1, g: 0, b: 0, a: 1}
+    - _FaceRightDirection: {r: 0, g: 0, b: 1, a: 1}
     - _FaceUVCtrl: {r: 0, g: 1, b: 0, a: 0}
-    - _FakeLightColor: {r: 1, g: 1, b: 1, a: 0}
-    - _FakeLightEuler: {r: 196, g: 190.7, b: 356.3, a: 0}
+    - _FakeLightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FakeLightEuler: {r: 0, g: 0, b: 0, a: 1}
     - _HairLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _HairUVCtrl: {r: 0, g: 0, b: 1, a: 0}
-    - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
-    - _OutlineDistancFade: {r: 50, g: 50, b: 0, a: 0}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OutlineDistancFade: {r: -25, g: 50, b: 0, a: 0}
     - _OverrideGIColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReceivedShadowColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     - _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
@@ -272,3 +254,16 @@ Material:
     - _SurfaceUVCtrl: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+--- !u!114 &1657490602788833901
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 10

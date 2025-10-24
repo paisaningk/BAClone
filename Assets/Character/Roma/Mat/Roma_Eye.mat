@@ -110,7 +110,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampMap:
-        m_Texture: {fileID: 2800000, guid: 71a8be6308c0b584fa30e19db4254adf, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2038fb49925c5ec42b94277d955be6c3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampOcclusionMap:
@@ -178,7 +178,7 @@ Material:
     - _FOVShiftX: 1
     - _FaceShadowMapPow: 0.2
     - _FaceShadowSmoothness: 0
-    - _FakeLightIntensity: 0
+    - _FakeLightIntensity: 2.87
     - _FlattenAdditionalLighting: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
@@ -205,8 +205,8 @@ Material:
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _OffsetShadowDistance: 15
-    - _OutlineWidth: 18.6
-    - _OverrideLightColorIntensityToggle: 0
+    - _OutlineWidth: 0
+    - _OverrideLightColorIntensityToggle: 1
     - _OverrideLightDirToggle: 1
     - _OverrideZTest: 0
     - _PBRInfluenceDirectLighting: 0
@@ -251,14 +251,14 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DepthRimLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FaceFrontDirection: {r: 0.018837627, g: 0, b: 0.99982256, a: 0}
-    - _FaceRightDirection: {r: 0.99982256, g: 0, b: -0.018837627, a: 0}
+    - _FaceFrontDirection: {r: -0.022544125, g: 0.037211, b: -0.9990534, a: 0}
+    - _FaceRightDirection: {r: -0.99974585, g: 0.0000011776283, b: 0.022559794, a: 0}
     - _FaceUVCtrl: {r: 0, g: 1, b: 0, a: 0}
-    - _FakeLightColor: {r: 1, g: 0.6556604, b: 0.6556604, a: 0}
-    - _FakeLightEuler: {r: 190.98, g: 0, b: 0, a: 0}
+    - _FakeLightColor: {r: 1, g: 1, b: 1, a: 0}
+    - _FakeLightEuler: {r: 196, g: 190.7, b: 356.3, a: 0}
     - _HairLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _HairUVCtrl: {r: 0, g: 0, b: 1, a: 0}
-    - _OutlineColor: {r: 1, g: 0.051886797, b: 0.051886797, a: 0}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
     - _OutlineDistancFade: {r: 50, g: 50, b: 0, a: 0}
     - _OverrideGIColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReceivedShadowColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
