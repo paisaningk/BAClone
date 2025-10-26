@@ -27,8 +27,8 @@ Material:
   m_ValidKeywords:
   - _RECEIVE_ASP_SHADOW
   - _RECEIVE_OFFSETED_SHADOW_ON
+  - _RECEIVE_SHADOWS_OFF
   - _SPECULAR_LIGHTING_ON
-  - _SSSMAP
   - _STYLE_CELSHADING
   m_InvalidKeywords:
   - _ENABLESSSRAMP
@@ -111,7 +111,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampMap:
-        m_Texture: {fileID: 2800000, guid: 080d8fc005823184eae223f45d9b6b7c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5db16b9e5fb36384fb7250c96a5fe32f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampOcclusionMap:
@@ -123,7 +123,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SSSRampMap:
-        m_Texture: {fileID: 2800000, guid: 603c478fd984615458e9fb8ba4c5a199, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -174,12 +174,12 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EmissionToggle: 0
-    - _EnableSSSRamp: 1
+    - _EnableSSSRamp: 0
     - _EnvironmentReflections: 1
     - _FOVShiftX: 1
     - _FaceShadowMapPow: 0.2
     - _FaceShadowSmoothness: 0
-    - _FakeLightIntensity: 2.87
+    - _FakeLightIntensity: 0
     - _FlattenAdditionalLighting: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
@@ -206,9 +206,9 @@ Material:
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _OffsetShadowDistance: 15
-    - _OutlineWidth: 0
-    - _OverrideLightColorIntensityToggle: 1
-    - _OverrideLightDirToggle: 1
+    - _OutlineWidth: 2.27
+    - _OverrideLightColorIntensityToggle: 0
+    - _OverrideLightDirToggle: 0
     - _OverrideZTest: 0
     - _PBRInfluenceDirectLighting: 0
     - _PBRMetallic: 0
@@ -219,19 +219,19 @@ Material:
     - _RampOcclusionStrength: 0
     - _ReceiveASPShadow: 1
     - _ReceiveOffsetedDepthMap: 1
-    - _ReceiveShadows: 1
+    - _ReceiveShadows: 0
     - _RimLightAlign: 0
     - _RimLightOn: 0
     - _RimLightOverShadow: 1
     - _RimLightSmoothness: 0.2
     - _RimLightStrength: 0.101
-    - _ScaleAsScreenSpaceOutline: 0
+    - _ScaleAsScreenSpaceOutline: 1
     - _ShadowColorMode: 0
     - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
-    - _SpecularFalloff: 0.324
+    - _SpecularFalloff: 0
     - _SpecularHighlights: 1
-    - _SpecularSize: 0.25
+    - _SpecularSize: 0
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Stencil: 0
@@ -248,15 +248,15 @@ Material:
     m_Colors:
     - _AlphaClipUVCtrl: {r: 1, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CharacterCenterWS: {r: 7.809, g: 0.100000024, b: 1.827, a: 0}
+    - _CharacterCenterWS: {r: 15.348, g: 0.153, b: -4.078, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DepthRimLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FaceFrontDirection: {r: -0.022544125, g: 0.037211, b: -0.9990534, a: 0}
-    - _FaceRightDirection: {r: -0.99974585, g: 0.0000011776283, b: 0.022559794, a: 0}
+    - _FaceFrontDirection: {r: -0.98821217, g: 0.037210997, b: -0.14850049, a: 0}
+    - _FaceRightDirection: {r: -0.14860336, g: 0.0000011771917, b: 0.988897, a: 0}
     - _FaceUVCtrl: {r: 0, g: 1, b: 0, a: 0}
     - _FakeLightColor: {r: 1, g: 1, b: 1, a: 0}
-    - _FakeLightEuler: {r: 196, g: 190.7, b: 356.3, a: 0}
+    - _FakeLightEuler: {r: 180, g: 0, b: 0, a: 0}
     - _HairLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _HairUVCtrl: {r: 0, g: 0, b: 1, a: 0}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
