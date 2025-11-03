@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class Roma_Animation : MonoBehaviour
 {
-    public PlayerController playerController;
+    public PlayerControllerTest playerControllerTest;
     private Animator mAnimator;
+    
 
     void Start()
     {

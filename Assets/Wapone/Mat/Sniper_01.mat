@@ -174,7 +174,7 @@ Material:
     - _FOVShiftX: 0
     - _FaceShadowMapPow: 0.2
     - _FaceShadowSmoothness: 0
-    - _FakeLightIntensity: 1
+    - _FakeLightIntensity: 0
     - _FlattenAdditionalLighting: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
@@ -197,7 +197,7 @@ Material:
     - _IsUsingRampOcclusionTexture: 0
     - _MatCapReflectionStrength: 1
     - _MatCapRollStabilize: 1
-    - _MaterialID: 0
+    - _MaterialID: 5
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _OffsetShadowDistance: 15
@@ -243,15 +243,15 @@ Material:
     m_Colors:
     - _AlphaClipUVCtrl: {r: 1, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CharacterCenterWS: {r: 0, g: 0, b: 1, a: 1}
+    - _CharacterCenterWS: {r: 11.102957, g: 0.100000024, b: -2.690896, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DepthRimLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FaceFrontDirection: {r: 1, g: 0, b: 0, a: 1}
-    - _FaceRightDirection: {r: 0, g: 0, b: 1, a: 1}
+    - _FaceFrontDirection: {r: 0.9766973, g: -0.16616398, b: 0.13584048, a: 0}
+    - _FaceRightDirection: {r: 0.13538717, g: -0.014105916, b: -0.99069273, a: 0}
     - _FaceUVCtrl: {r: 0, g: 1, b: 0, a: 0}
-    - _FakeLightColor: {r: 1, g: 1, b: 1, a: 1}
-    - _FakeLightEuler: {r: 0, g: 0, b: 0, a: 1}
+    - _FakeLightColor: {r: 1, g: 1, b: 1, a: 0}
+    - _FakeLightEuler: {r: 180, g: 0, b: 0, a: 0}
     - _HairLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _HairUVCtrl: {r: 0, g: 0, b: 1, a: 0}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
